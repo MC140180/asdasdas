@@ -6,12 +6,12 @@ public class MiniDuckSimulator {
     public static void main(String[] args) {
         Duck mullardDuck = new MallardDuck();
         Duck rubberDuck = new RubberDuck();
-        Duck redHeadDuck = new RedHeadDuck();
+        Duck fakeDuck = new FakeDuck();
 
         ArrayList<Duck> ducks = new ArrayList<Duck>();
         ducks.add(mullardDuck);
         ducks.add(rubberDuck);
-        ducks.add(redHeadDuck);
+        ducks.add(fakeDuck);
 
         for(Duck duck:ducks) {
             duck.doQuack();
