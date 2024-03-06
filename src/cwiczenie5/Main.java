@@ -5,12 +5,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Shop shopPL = new Shop(LocationEnum.PL);
-        Shop shopGB = new Shop(LocationEnum.GB);
-        Shop shopDE = new Shop(LocationEnum.DE);
+        Shop shop = new Shop();
 
-        System.out.println(shopPL.doCalculateTax());;
-        System.out.println(shopDE.doCalculateTax());;
-        System.out.println(shopGB.doCalculateTax());;
+        System.out.println(shop.doCalculateTax(new Client(LocationEnum.PL)));;
+        System.out.println(shop.doCalculateTax(new Client(LocationEnum.DE)));;
+        System.out.println(shop.doCalculateTax(new Client(LocationEnum.GB)));;
+
     }
 }
