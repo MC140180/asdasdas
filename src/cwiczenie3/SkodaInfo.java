@@ -1,6 +1,6 @@
 package cwiczenie3;
 
-public class SkodaInfo extends CarInfo{
+public class SkodaInfo extends CarInfo implements ICarInfo{
 
     SkodaInfo(){
         super();
