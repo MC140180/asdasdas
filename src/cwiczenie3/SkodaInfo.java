@@ -1,9 +1,12 @@
 package cwiczenie3;
 
-public class SkodaInfo extends CarInfo implements ICarInfo{
+public class SkodaInfo implements ICarInfo{
 
     SkodaInfo(){
-        super();
-        this.name = "Skoda";
+    }
+
+    @Override
+    public String getName() {
+        return "Skoda";
     }
 }
