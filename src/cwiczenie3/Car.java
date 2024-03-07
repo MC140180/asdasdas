@@ -2,8 +2,8 @@ package cwiczenie3;
 
 public class Car {
     private CarInfo carInfo;
-    private MaxCarSpeed maxCarSpeed;
-    public Car(CarInfo carInfo, MaxCarSpeed maxCarSpeed) {
+    private CarSpeed maxCarSpeed;
+    public Car(CarInfo carInfo, CarSpeed maxCarSpeed) {
         this.carInfo = carInfo;
         this.maxCarSpeed = maxCarSpeed;
     }
@@ -12,7 +12,7 @@ public class Car {
         return carInfo;
     }
 
-    public MaxCarSpeed getMaxCarSpeed() {
-        return maxCarSpeed;
+    public CarSpeed getMaxCarSpeed() {
+        return this.maxCarSpeed;
     }
 }

@@ -1,5 +1,5 @@
 package cwiczenie3;
 
-public interface IEngine {
+public interface IMaxSpeed {
     int getMaxSpeed();
 }

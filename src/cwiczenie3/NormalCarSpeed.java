@@ -1,8 +1,7 @@
 package cwiczenie3;
 
-public abstract class Engine implements IEngine{
-    Engine(){
-
+public class NormalCarSpeed extends CarSpeed implements IMaxSpeed {
+    NormalCarSpeed(){
     }
 
     @Override
