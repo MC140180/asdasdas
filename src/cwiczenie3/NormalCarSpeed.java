@@ -1,11 +1,10 @@
 package cwiczenie3;
 
-public class NormalCarSpeed extends CarSpeed implements IMaxSpeed {
+public class NormalCarSpeed implements IMaxSpeed {
     NormalCarSpeed(){
     }
-
     @Override
     public int getMaxSpeed() {
-        return 200;
+        return 260;
     }
 }

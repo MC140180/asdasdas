@@ -1,18 +1,18 @@
 package cwiczenie3;
 
 public class Car {
-    private CarInfo carInfo;
-    private CarSpeed maxCarSpeed;
-    public Car(CarInfo carInfo, CarSpeed maxCarSpeed) {
+    private ICarInfo carInfo;
+    private IMaxSpeed maxCarSpeed;
+    public Car(ICarInfo carInfo, IMaxSpeed maxCarSpeed) {
         this.carInfo = carInfo;
         this.maxCarSpeed = maxCarSpeed;
     }
 
-    public CarInfo getCarInfo() {
+    public ICarInfo getCarInfo() {
         return carInfo;
     }
 
-    public CarSpeed getMaxCarSpeed() {
+    public IMaxSpeed getMaxCarSpeed() {
         return this.maxCarSpeed;
     }
 }
